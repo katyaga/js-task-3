@@ -1,0 +1,64 @@
+h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.play {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.play__field {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid silver;
+}
+
+.white {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+    background-color: white;
+}
+
+.white:nth-child(4n) {
+    border-right: 1px solid silver;
+}
+
+.red {
+    background-color: red;
+
+}
+.green {
+    background-color: green;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.light-blue {
+    background-color: lightblue;
+}
