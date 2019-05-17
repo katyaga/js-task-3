@@ -8,8 +8,7 @@ let timeSpent;
 const colors = ['red', 'green', 'gray', 'yellow', 'blue', 'pink', 'orange', 'light-blue'];
 
 // Генерация клеток при загрузке страницы
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i < 16; i++) {
+for (let i = 0; i < 16; i += 1) {
   const cell = document.createElement('div');
   cell.classList.add('white');
   playField.appendChild(cell);
